@@ -1,0 +1,9 @@
+services:
+  trading-demo:
+    build: .
+    container_name: trading-bot-demo
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+    restart: unless-stopped

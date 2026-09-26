@@ -1,0 +1,16 @@
+{
+  "name": "trading-bot-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live demo: React dashboard + Node order engine over WebSocket. Zero dependencies, zero build step.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "",
+  "license": "MIT"
+}
