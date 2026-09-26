@@ -9,6 +9,13 @@ It runs with **zero dependencies and zero build step** — clone and `node serve
 That mirrors the "clone the repo, spin up the containers, get going without ceremony"
 workflow you described.
 
+## Deploy (one click)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MikhailGrempel/Trading-Bot)
+
+The repo ships a `render.yaml` blueprint (Docker, free plan, `/api/health` check),
+so Render builds and hosts it with no configuration.
+
 ## Run it
 
 ```bash

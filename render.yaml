@@ -1,0 +1,11 @@
+# Render blueprint — deploys the demo as a Docker web service on the free plan.
+# Render injects its own PORT and the server reads process.env.PORT, so no port
+# config is needed here. Health check hits the app's /api/health route.
+services:
+  - type: web
+    name: trading-bot-demo
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true
