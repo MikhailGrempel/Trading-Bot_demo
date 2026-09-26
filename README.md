@@ -11,7 +11,7 @@ workflow you described.
 
 ## Deploy (one click)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MikhailGrempel/Trading-Bot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MikhailGrempel/Trading-Bot_demo)
 
 The repo ships a `render.yaml` blueprint (Docker, free plan, `/api/health` check),
 so Render builds and hosts it with no configuration.
